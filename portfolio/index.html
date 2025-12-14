@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/master.css">
+    <title>Professional Portfolio</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><img src="images/1207.gif" alt="Portfolio Logo"></div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Matthew</h1>
+            <p class="hero-subtitle">Future Cyber Criminal Destroyer | Knowledge Addict</p>
+            <p class="hero-description">I'm a student in IT, aspiring to become a professional analyst/technician that makes stuff, breaks stuff, and imrproves stuff.</p>
+            <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get In Touch</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an IT student with a focus on networking and cybersecurity. I like taking things apart; software, hardware and their configs—to see how they really work, then putting them back together, usually improving them. Most of my time goes into learning, experimenting, and building small projects that sharpen my skills in iot, networking, and problem-solving.</p>
+                    <p>My journey in tech has just started but i feel as though my past experience in Tech has equipped me with strong problem-solving skills, attention to detail, and a commitment to the security of any Organization I may work for.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Networking</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Understanding of TCP/IP, OSI model, and subnetting</span>
+                        <span class="tag">Configuring and managing routers and switches (Cisco, etc.)</span>
+                        <span class="tag">Setting up and troubleshooting LANs, WANs, and VLANs</span>
+                        <span class="tag">Wireless networking (WiFi standards, security, access points)</span>
+                        <span class="tag">Server Administration - Linux and Windows</span>
+                        <span class="tag">Automation scripting</span>
+                        </span>"
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Back-End Development</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python, Java, JavaScript/TypeScript, C++</span>
+                        <span class="tag">Node.js/Express,</span>
+                        <span class="tag">Database design: schemas, relationships, indexing basics - SQL</span>
+                        <span class="tag">Server-side logic: routing, controllers, services, error handling</span>
+                        <span class="tag">Deployment basics: hosting on VPS/Render/Heroku, environment variables</span>
+                    </div>
+                </div>
+                
+                </div>
+                
+                <div class="skill-card">
+    <h3>Volunteer Time Traveler (Night Shift Veteran)</h3>
+    <div class="skill-tags">
+        <span class="tag">Flexible schedule adaptability</span>
+        <span class="tag">Independent work ethic</span>
+        <span class="tag">Peak performance in off-hours</span>
+        <span class="tag">Caffeine resource optimization</span>
+        <span class="tag">Minimal supervision required</span>
+        <span class="tag">Reliable attendance under any conditions</span>
+    </div>
+</div>
+
+<div class="skill-card">
+    <h3>Licensed Overthinking Specialist</h3>
+    <div class="skill-tags">
+        <span class="tag">Thorough analysis of all possibilities</span>
+        <span class="tag">Edge case identification</span>
+        <span class="tag">Worst-case scenario preparedness</span>
+        <span class="tag">Detail-oriented documentation</span>
+        <span class="tag">Proactive problem anticipation</span>
+        <span class="tag">Nothing slips through the cracks</span>
+    </div>
+</div>
+
+<div class="skill-card">
+    <h3>Self-Taught Google Search Surgeon</h3>
+    <div class="skill-tags">
+        <span class="tag">Advanced query formulation</span>
+        <span class="tag">Rapid independent research</span>
+        <span class="tag">Source credibility evaluation</span>
+        <span class="tag">Self-directed learning</span>
+        <span class="tag">Resourcefulness under pressure</span>
+        <span class="tag">Solutions-first mentality</span>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025-Present</div>
+                    <div class="timeline-content">
+                        <h3>IT Student</h3>
+                        <p class="company">Mitchell Community College</p>
+                        <p>Going for COMPtia Network+ Certification and Core 1 and Core 2 A+ Certification. Major: Informnation Technology - Cybersecurity</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020-2023</div>
+                    <div class="timeline-content">
+                        <h3>ITAD Operator</h3>
+                        <p class="company">Sprout</p>
+                        <p>Server Diagnostics technician at Sprout, working on IT asset disposition for large tech clients. I disassembled high‑end servers, harvested reusable components, and performed hands‑on diagnostics to determine hardware condition. I was responsible for valuing servers and parts based on specs, performance, and market demand, helping decide what got reused, resold, or recycled.</p>
+                    </div>
+                </div>
+                
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="project-info">
+                        <h3>Human Cloner</h3>
+                        <p>A full-stack cloning platform built with Node.js, and retrieved, reverse-engineered alien technology. Features include human cloning, limb cloning, shopping cart, and payment integration.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Dilithium Crystal Sythesization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="project-info">
+                        <h3>UFO Communicator</h3>
+                        <p>Paired with the UFO Communicator Omni-directional antenna (sold separately) (required). Talk to any UFO you see in the night sky! We Believe.</p>
+                        <div class="project-tags">
+                            <span>Aliens</span>
+                            <span>HTML/CSS</span>
+                            <span>API integration</span>
+                            <span>Inter-dimensional Transcribing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="project-info">
+                        <h3>Weather Controller</h3>
+                        <p>A weather application that controls the weather. Create hurricanes, destroy hurricanes, whatever your heart desires!</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>API Integration</span>
+                            <span>CSS Grid</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Get In Touch</h2>
+            <p class="contact-intro">I'm always interested in new projects, opportunities </p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:mrdesanti@students.mitchelcc.edu">mrdesanti@students.mitchellcc.edu</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <a href="tel:+1234567890">704 000 0000</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Statesville, NC</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="copyright-text">&copy; 2025 Matthew DeSanti. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
